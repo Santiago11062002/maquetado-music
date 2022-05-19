@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+header{
+    height: 520px;
+    background: url(../images/angel-jimenez.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 200px 0 0 0 ;
+    font-size: 120px;
+    font-family: sans-serif;
+}
+button{
+    background-color: #FD4C5C;
+    color: #FFFFFF;
+}
+section{
+    width: 100%;
+    padding: 0 60px;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.texto1{
+    float: left;
+    width: 50%;
+    padding: 70px 0 0 0;
+}
+.imagen1{
+    float: left;
+    width: 50%;
+    padding: 60px;
+}
+
+.imagen2{
+    float: left;
+    width: 50%;
+    padding: 50px;
+}
+.texto2{
+    float: left;
+    width: 30%;
+    padding: 40px 0 0 0;
+}
+
+.centro{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+}
+    
+.flotar1{
+    float: right;
+    width: 50%;
+    color: #FFFFFF;
+   
+}
+        
+.clear{
+    clear: both;
+}
+            
+h2{
+    background: -webkit-linear-gradient(rgb(255, 77, 77), rgb(250, 1, 80));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 80px 0 0 0;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.imagenfondo{
+    background: url(../images/john-raptis.png);
+    height: 350px;
+    background-size: cover;
+}
+
+button{
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: #FD4C5C;
+    margin: 10px 0 0 0;
+}
+
+button:hover{
+    background-color: #FD4C5C;
+}
+
+/* ul{
+    list-style: none;
+    float: left;
+    color: #FFFFFF;
+    margin: 0 100px 0 0 ;  
+    padding: 60px 0 0 0;
+} */
+
+footer{
+    background-color: #FD4C5C;
+}
+
+/* footer p{
+    color: #FFFFFF;
+} */
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: sans-serif;
+}
+
+.content-fot {
+    text-align: justify;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    padding: 60px 0 0 0;
+}
+
+.content-fot h4 {
+    text-align: justify;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.content-fot h4 {
+    text-align:justify;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.titulo-final {
+    text-align: left;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    padding: 30px 0 0 50px;
+    font-size: 20px;
+}
+
+
+@media(max-width: 1200px){
+
+    main{
+        width: 993px;
+    }
+}
+
+@media(max-width: 768px){
+
+    main { 
+        width: 600px;
+    }
+    .imagen1{ 
+        float:none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .contenedor1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        }
+
+    .imagen2{
+        float:none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+        }
+    .imagenfondo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        height: 500px;
+        }
+    .imagenfondo h3 {
+        margin-top: 30px;
+    }
+    footer ul{
+        margin: 0 65px 0 0 ;
+     
+    }
+    img{
+        width: 200%;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
